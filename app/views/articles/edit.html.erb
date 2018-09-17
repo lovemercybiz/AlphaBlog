@@ -1,4 +1,4 @@
-<h1> Create an article </h1>
+<h1> Edit article</h1>
 
 <% if @article.errors.any? %>
 <h2 id="error"> The following errors prevented the article from being created: </h2>
@@ -10,7 +10,6 @@
 <% end %>
 
 <%= form_for @article do |f| %>
-
     <p>
     <%= f.label :title %> <br>
     <%= f.text_field :title %>
@@ -25,5 +24,4 @@
     <%= f.submit %>
     </p>
 <% end %>
-
 <%= link_to "<< Articles", articles_path%>
