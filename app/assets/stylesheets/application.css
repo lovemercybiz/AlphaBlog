@@ -32,7 +32,7 @@ ul {
     overflow: hidden;
     background-color:rgba(216, 112, 147, 0.5);
 }
-li {
+#links {
     /* float: left; */
     /* background-color:rgba(216, 112, 147, 0.5); */
     text-align: center;
@@ -40,7 +40,7 @@ li {
     /* padding-left: 1em;  good for when smaller screen */
     border: 1px rgba(255, 255, 255, 0.37) solid;
 }
-li:hover {
+#links:hover {
     background: rgba(220, 20, 60, 0.6);
     color:white;
     /* font-weight: bold; */

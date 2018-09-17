@@ -9,12 +9,13 @@
     </head>
     <body>
         <h1>About Me</h1>
-        <ul>
+          <ul id="links">
             <%# <li><a href="home.html">Home</a></li> %>
             <%= link_to 'Home', root_path %> 
             <%= link_to 'About', about_path%>
+            <%= link_to "Blog", articles_path%>
             <%# <li><a href="about.html">About</a></li> %>
-            <li><a href="mailto:lovemercybiz@gmail.com">Contact</a></li>
+            <%# <li><a href="mailto:lovemercybiz@gmail.com">Contact</a></li> %>
         </ul>
     </body>
 </html>

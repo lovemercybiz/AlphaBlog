@@ -13,7 +13,8 @@
         <td> <%= article.description %> </td>
         <td> <%= link_to 'Edit', edit_article_path(article)%> </td>
         <td> <%= link_to 'Show', article_path(article)%> </td>
-        <%# <td> <%= link_to 'Destroy', destroy_article_path%>
+        <td> <%= link_to 'Delete', article_path(article), method: :delete, data: {confirm: "You for real?"} %> </td>
     </tr>
     <% end %>
 </table>
+<%= link_to 'Home', root_path %>
